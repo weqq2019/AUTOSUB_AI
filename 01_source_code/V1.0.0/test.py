@@ -1,15 +1,15 @@
-import zipfile
-import io
-import os
+# import zipfile
+# import io
+# import os
 
-import requests
-driver_path = r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
-# options= r"D:\BaiduSyncdisk\LQ\Code\M17\AutoSub\AutoSub2.0\chorme95+\App\chrome.exe"
+# import requests
+# driver_path = r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
+# # options= r"D:\BaiduSyncdisk\LQ\Code\M17\AutoSub\AutoSub2.0\chorme95+\App\chrome.exe"
 
-""
+# ""
 
-print(os.path.exists(driver_path))
-# print(os.path.exists(options))
+# print(os.path.exists(driver_path))
+# # print(os.path.exists(options))
 
 
 
@@ -23,3 +23,4 @@ print(os.path.exists(driver_path))
 
 # # 将ChromeDriver路径添加到系统环境变量中
 # os.environ['PATH'] += ';C:/chromedriver'
+print("看看在哪个环境运行")
